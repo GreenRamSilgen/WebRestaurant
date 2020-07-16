@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    color: tomato;
+}
+/* FOOTER CSS */
+footer {
+    height: 2em;
+    width: 100%;
+    background: rgb(71, 71, 71);
+    grid-column: 1/-1;
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot {
+    position: absolute;
+    right: 0px;
+}
+
+.foot__icons {
+    color: white;
+    padding: 0px 20px;
+}
+
+/* FOOTER CSS */
+
+
+#logocontainer{
+    /* position: fixed;
+    z-index: -1;
+    width: 100%;
+    background-color: black; */
+    
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?cs=srgb&dl=neon-signage-2235130.jpg&fm=jpg");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* #logo{
+    width: 100%;
+    height: auto;
+} */
+
+#page{
+    width: 100%;
+    background-color: white;
+
+    position: relative;
+    top: 40px;
+}
+
+.nav{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav__btn{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgba(245, 245, 245, 0.986);
+    
+    /*Border*/
+    border-bottom: rgba(226, 226, 226, 0.897);
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+.nav__btn:hover{
+    border-bottom: tomato;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
