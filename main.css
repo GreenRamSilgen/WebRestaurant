@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: white;
+    background-color: rgb(22, 22, 22);
     color: tomato;
 }
 /* FOOTER CSS */
@@ -38,11 +38,6 @@ footer {
 
 
 #logocontainer{
-    /* position: fixed;
-    z-index: -1;
-    width: 100%;
-    background-color: black; */
-    
   /* The image used */
   background-image: url("https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?cs=srgb&dl=neon-signage-2235130.jpg&fm=jpg");
 
@@ -55,14 +50,10 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* #logo{
-    width: 100%;
-    height: auto;
-} */
 
 #page{
     width: 100%;
-    background-color: white;
+    background-color: rgb(22, 22, 22);
 
     position: relative;
     top: 40px;
@@ -79,7 +70,7 @@ footer {
     font-size: 1.5em;
     font-weight: bold;
     padding: 5px;
-    background-color: rgba(245, 245, 245, 0.986);
+    background-color: rgb(71, 71, 71);
     
     /*Border*/
     border-bottom: rgba(226, 226, 226, 0.897);
@@ -87,13 +78,32 @@ footer {
     border-width: 0px 0px 5px 0px;
 }
 .nav__btn:hover{
+    cursor: pointer;
+    color: tomato;
     border-bottom: tomato;
     border-style: solid;
     border-width: 0px 0px 5px 0px;
 }
-#content{
+
+
+.content{
     display: flex;
     flex-direction: column;
     width: 50%;
+    line-height: 2em;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: rgb(71, 71, 71);
+    padding: 1em 1em;
     margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.content__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align-last: justify;
 }
