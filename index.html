@@ -9,14 +9,14 @@
     ></script>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body onfocus="blur()">
     <header>THE FIRE PLACE</header>
     <div id="logocontainer">
     </div>
 
     <div id="page">
       <div class="nav">
-        <button class="nav__btn" data-load="mission" tabindex="1">
+        <button class="nav__btn" id="mission" data-load="mission" tabindex="1">
           Our Mission
         </button>
         <button class="nav__btn" data-load="menu" tabindex="2">MENU</button>
@@ -29,18 +29,18 @@
         <div class="content"></div>
       </div>
 
-      <footer>
-        <div class="foot">
-          <a target="_blank" href="https://github.com/GreenRamSilgen"
+      <footer tabindex="-1">
+        <div class="foot" tabindex="-1">
+          <a tabindex="-1" target="_blank" href="https://github.com/GreenRamSilgen"
             ><i
+            tabindex="-1"
               class="fab fa-github-square fa-lg foot__icons"
               title="My Github"
             ></i
           ></a>
-          <a
-            target="_blank"
+          <a tabindex="-1" target="_blank"
             href="https://github.com/GreenRamSilgen/WebRestaurant"
-            ><i class="fas fa-code fa-lg foot__icons" title="Source Code"></i
+            ><i tabindex="-1" class="fas fa-code fa-lg foot__icons" title="Source Code"></i
           ></a>
         </div>
       </footer>
