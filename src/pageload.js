@@ -18,7 +18,9 @@ const mission = (contentHolder) => {
     newContent.appendChild(mission);
     newContent.appendChild(description);
     //re-add content to content-holder
+    
     contentHolder.appendChild(newContent);
+    window.location.hash = '#mission';
 };
 
 const menu = (contentHolder) => {
